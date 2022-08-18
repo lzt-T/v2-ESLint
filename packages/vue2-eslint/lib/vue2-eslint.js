@@ -7,6 +7,5 @@ module.exports = {
     rules: {
         // 算引号和分号结尾
         "semi": ["error", "always"],
-        "quotes": ["error", "double"]
     }
 };
