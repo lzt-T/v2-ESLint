@@ -1,0 +1,19 @@
+{
+  "name": "vue2-eslint",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "lzt <1134565243@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/vue2-eslint.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/vue2-eslint.test.js"
+  }
+}
