@@ -1,7 +1,12 @@
 'use strict';
 
-module.exports = vue2Eslint;
 
-function vue2Eslint() {
-    return "Hello from vue2Eslint";
-}
+module.exports = {
+    root: true,
+    extends: ["eslint-config-basic-eslint"],
+    rules: {
+        // 算引号和分号结尾
+        "semi": ["error", "always"],
+        "quotes": ["error", "double"]
+    }
+};
