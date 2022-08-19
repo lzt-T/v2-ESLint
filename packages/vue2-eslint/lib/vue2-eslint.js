@@ -2,7 +2,6 @@
 
 
 module.exports = {
-    root: true,
     extends: ["eslint-config-basic-eslint"],
     rules: {
         // 算引号和分号结尾
