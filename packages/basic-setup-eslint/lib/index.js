@@ -1,5 +1,3 @@
-'use strict';
-
 module.exports = {
     /** 环境 */
     env: {
@@ -12,7 +10,7 @@ module.exports = {
         ecmaVersion: 6,
         sourceType: 'module',  //  设置为 "script" (默认) 或 "module"（如果你的代码是 ECMAScript 模块)
         ecmaFeatures: {
-            generators: false,  // 允许在全局作用域下使用 return 语句
+            generators: false,  // 不允许在全局作用域下使用 return 语句
             objectLiteralDuplicateProperties: false
         }
     },
@@ -29,6 +27,7 @@ module.exports = {
     ],
     extends: [
         './rules/best-practices',
+        './rules/errors',
     ].map(require.resolve),
     rules: {
 
