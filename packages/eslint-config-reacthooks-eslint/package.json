@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-reacthooks-eslint",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "> TODO: description",
   "author": "lzt <1134565243@qq.com>",
   "homepage": "https://github.com/lzt-T/v2-ESLint#readme",
@@ -14,7 +14,7 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "http://192.168.31.136:4873/"
+    "registry": "https://registry.npmjs.org/"
   },
   "repository": {
     "type": "git",
@@ -31,7 +31,8 @@
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.33.1",
-    "@typescript-eslint/parser": "^5.33.1"
+    "@typescript-eslint/parser": "^5.33.1",
+    "eslint-config-basic-eslint": "^1.0.4"
   },
-  "gitHead": "7454a836a996b681cdbb24cd779b334110d13d6e"
+  "gitHead": "6a12a093d6ab607875c69c7595cae68783e248be"
 }

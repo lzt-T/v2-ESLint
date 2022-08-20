@@ -1,5 +1,3 @@
-const confusingBrowserGlobals = require('confusing-browser-globals');
-
 module.exports = {
   rules: {
     // 要求或禁止 var 声明中的初始化

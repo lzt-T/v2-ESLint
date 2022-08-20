@@ -16,5 +16,5 @@
   "scripts": {
     "test": "node ./__tests__/basic-setup-eslint.test.js"
   },
-  "gitHead": "7454a836a996b681cdbb24cd779b334110d13d6e"
+  "gitHead": "6a12a093d6ab607875c69c7595cae68783e248be"
 }
