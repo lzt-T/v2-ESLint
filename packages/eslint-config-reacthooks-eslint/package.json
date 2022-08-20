@@ -1,0 +1,36 @@
+{
+  "name": "eslint-config-reacthooks-eslint",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "lzt <1134565243@qq.com>",
+  "homepage": "https://github.com/lzt-T/v2-ESLint#readme",
+  "license": "ISC",
+  "main": "lib/eslint-config-reacthooks-eslint.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://192.168.31.136:4873/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lzt-T/v2-ESLint.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/eslint-config-reacthooks-eslint.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/lzt-T/v2-ESLint/issues"
+  },
+  "devDependencies": {
+    "eslint-config-basic-eslint": "^1.0.2"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.33.1",
+    "@typescript-eslint/parser": "^5.33.1"
+  }
+}
