@@ -13,6 +13,9 @@
   "files": [
     "lib"
   ],
+  "publishConfig": {
+    "registry": "http://localhost:4873/"
+  },
   "scripts": {
     "test": "node ./__tests__/vue2-eslint.test.js"
   },
