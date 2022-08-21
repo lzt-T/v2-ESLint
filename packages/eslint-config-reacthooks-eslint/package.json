@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-reacthooks-eslint",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "> TODO: description",
   "author": "lzt <1134565243@qq.com>",
   "homepage": "https://github.com/lzt-T/v2-ESLint#readme",
@@ -32,7 +32,7 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.33.1",
     "@typescript-eslint/parser": "^5.33.1",
-    "eslint-config-basic-eslint": "^1.0.5"
+    "eslint-config-basic-eslint": "^1.0.6"
   },
   "gitHead": "6a12a093d6ab607875c69c7595cae68783e248be"
 }
