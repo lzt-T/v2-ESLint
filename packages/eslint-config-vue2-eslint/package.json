@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-vue2-eslint",
-  "version": "1.0.9",
+  "version": "1.0.0",
   "description": "> TODO: description",
   "author": "lzt <1134565243@qq.com>",
   "homepage": "",
@@ -20,7 +20,7 @@
     "test": "node ./__tests__/vue2-eslint.test.js"
   },
   "dependencies": {
-    "eslint-config-basic-eslint": "^1.0.8",
+    "eslint-config-basic-eslint": "^1.0.0",
     "eslint-plugin-vue": "^9.3.0"
   },
   "gitHead": "0be889e731296de060298c86599331dd5dcb36d9"
