@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-vue2-eslint",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "> TODO: description",
   "author": "lzt <1134565243@qq.com>",
   "homepage": "",
@@ -23,5 +23,5 @@
     "eslint-config-basic-eslint": "^1.0.1",
     "eslint-plugin-vue": "^9.3.0"
   },
-  "gitHead": "89983e035398b453f24b271f7f5e29e0057ab767"
+  "gitHead": "ea0bf12ed2f11da1585e413c885355b7d28bcf70"
 }
