@@ -14,7 +14,7 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": " http://localhost:4873/"
+    "registry": "http://192.168.31.136:4873/"
   },
   "scripts": {
     "test": "node ./__tests__/basic-setup-eslint.test.js"
