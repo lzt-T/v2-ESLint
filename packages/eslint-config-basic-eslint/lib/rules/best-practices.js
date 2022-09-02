@@ -10,7 +10,7 @@ module.exports = {
 
     // 要求 return 语句要么总是指定返回的值，要么不指定
     // https://eslint.org/docs/rules/consistent-return
-    'consistent-return': 'error',
+    'consistent-return': 'off',
 
     // 强制所有控制语句使用一致的括号风格,允许在单行中省略大括号
     // https://eslint.org/docs/rules/curly

@@ -12,5 +12,6 @@ module.exports = {
     "@typescript-eslint/no-floating-promises": "off",
     '@typescript-eslint/no-namespace': 'off',
     '@typescript-eslint/no-non-null-assertion': 'off',
+    "@typescript-eslint/prefer-as-const": "off"
   }
 };
