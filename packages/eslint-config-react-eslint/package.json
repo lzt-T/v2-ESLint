@@ -14,7 +14,7 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "http://192.168.31.136:4873/"
+    "registry": " http://localhost:4873/"
   },
   "repository": {
     "type": "git",
@@ -34,5 +34,5 @@
     "eslint-plugin-react": "^7.30.1",
     "eslint-plugin-react-hooks": "^4.6.0"
   },
-  "gitHead": "0be889e731296de060298c86599331dd5dcb36d9"
+  "gitHead": "89983e035398b453f24b271f7f5e29e0057ab767"
 }
