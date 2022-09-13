@@ -2,7 +2,7 @@ module.exports = {
   env: {
     es6: true
   },
-    /** 解析器 */
+  /** 解析器 */
   parserOptions: {
     ecmaVersion: 6,
     sourceType: 'module',
@@ -58,6 +58,9 @@ module.exports = {
     // https://eslint.org/docs/rules/no-this-before-super
     'no-this-before-super': 'error',
 
+    // 禁止使用不必要的计算属性。
+    'no-useless-computed-key': 'error',
+
     // 禁止在 import 和 export 和解构赋值时将引用重命名为相同的名字
     // https://eslint.org/docs/rules/no-useless-rename
     'no-useless-rename': ['error', {
@@ -77,16 +80,52 @@ module.exports = {
     // https://eslint.org/docs/rules/prefer-rest-params
     'prefer-rest-params': 'error',
 
+    // 对象字面量简写语法 
+    'object-shorthand': 'error',
+
+    // 要求使用箭头函数作为回调
+    'prefer-arrow-callback': 'error',
+
+    // 要求使用 const 声明那些声明后不再被修改的变量
+    'prefer-const': 'error',
+
+    // 禁用 parseInt() 和 Number.parseInt()，使用二进制，八进制和十六进制字面量
+    'prefer-numeric-literals': 'error',
+
+    // 建议使用剩余参数代替 arguments
+    'prefer-rest-params': 'error',
+
     // 要求使用扩展运算符而非 .apply()
     // https://eslint.org/docs/rules/prefer-spread
     'prefer-spread': 'error',
+
+
+    // 建议使用模板字面量而非字符串连接
+    'prefer-template': 'error',
+
+    // 禁用函数内没有yield的 generator 函数   
+    'require-yield': 'error',
+
+    // 强制剩余和扩展运算符及其表达式之间没有空格 
+    'rest-spread-spacing': ["error", "never"],
+
+    // import 排序 
+    "sort-imports": ["error", {
+      "ignoreCase": false,
+      "ignoreDeclarationSort": false,
+      "ignoreMemberSort": false,
+      "memberSyntaxSortOrder": ["none", "all", "multiple", "single"]
+    }],
 
     // 要求 symbol 描述
     // https://eslint.org/docs/rules/symbol-description
     'symbol-description': 'error',
 
-    // 强制模板字符串中空格的使用
+    // 禁止模板字符串中空格的使用
     // https://eslint.org/docs/rules/template-curly-spacing
-    'template-curly-spacing': 'error',
+    'template-curly-spacing': ['error', 'never'],
+
+    // 强制在 yield* 表达式中 * 周围使用空格
+    "yield-star-spacing": ["error", { "before": true, "after": false }]
   }
 };
