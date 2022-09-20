@@ -20,7 +20,7 @@
     "test": "node ./__tests__/vue2-eslint.test.js"
   },
   "dependencies": {
-    "eslint-config-basic-eslint": "^1.1.4",
+    "@mored/eslint-config-basic": "^1.1.5",
     "eslint-plugin-vue": "^9.3.0"
   },
   "gitHead": "edcf7141a101fe63a16bb90aabd60936af8b91da"

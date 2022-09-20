@@ -27,9 +27,9 @@
     "url": "https://github.com/lzt-T/v2-ESLint/issues"
   },
   "dependencies": {
+    "@mored/eslint-config-basic": "^1.1.5",
     "@typescript-eslint/eslint-plugin": "^5.33.1",
     "@typescript-eslint/parser": "^5.33.1",
-    "eslint-config-basic-eslint": "^1.1.4",
     "eslint-plugin-jsx-a11y": "^6.6.1",
     "eslint-plugin-react": "^7.30.1",
     "eslint-plugin-react-hooks": "^4.6.0"
