@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-basic-eslint",
+  "name": "@mored/eslint-config-vue2",
   "version": "1.1.4",
   "description": "> TODO: description",
   "author": "lzt <1134565243@qq.com>",
@@ -17,7 +17,11 @@
     "registry": "http://192.168.31.136:4873/"
   },
   "scripts": {
-    "test": "node ./__tests__/basic-setup-eslint.test.js"
+    "test": "node ./__tests__/vue2-eslint.test.js"
+  },
+  "dependencies": {
+    "eslint-config-basic-eslint": "^1.1.4",
+    "eslint-plugin-vue": "^9.3.0"
   },
   "gitHead": "edcf7141a101fe63a16bb90aabd60936af8b91da"
 }
