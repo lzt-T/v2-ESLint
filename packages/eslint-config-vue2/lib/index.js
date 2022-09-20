@@ -1,6 +1,6 @@
 
 module.exports = {
-    extends: ["plugin:vue/recommended", "eslint-config-basic-eslint"],
+    extends: ["plugin:vue/recommended", "@mored/eslint-config-basic"],
     rules: {
         "vue/no-reserved-props": ["error", {
             "vueVersion": 2,

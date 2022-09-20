@@ -21,7 +21,8 @@ module.exports = {
   ],
   extends: [
     "plugin:react/recommended",
-    "eslint-config-basic-eslint"
+    "@mored/eslint-config-basic",
+    "eslint-config-airbnb"
   ],
   settings: {
     react: {
@@ -38,5 +39,7 @@ module.exports = {
     "react-hooks/rules-of-hooks": "error",
     'react/prop-types': "off",
     'react/display-name': "off",
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off"
   }
 };
