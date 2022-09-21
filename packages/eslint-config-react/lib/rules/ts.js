@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['plugin:@typescript-eslint/recommended',"eslint-config-basic-eslint"],
+  extends: ['plugin:@typescript-eslint/recommended',"@mored/eslint-config-basic"],
   // 解析TS
   parser: '@typescript-eslint/parser',
   // 这允许您在代码库中使用typescript-eslint的规则

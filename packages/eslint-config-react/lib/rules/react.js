@@ -22,7 +22,8 @@ module.exports = {
   extends: [
     "plugin:react/recommended",
     "@mored/eslint-config-basic",
-    "eslint-config-airbnb"
+    /** 引入airbnb */
+    "airbnb"
   ],
   settings: {
     react: {
